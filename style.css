@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@font-face {
+    font-family: 'Workshop';
+    src: url("media/Workshop.otf") format('opentype');
+}
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+text-decoration: none;
+}
+
+body
+{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background: #d7fcd6;
+    border-radius: 5px;
+    border: 8px solid white;
+}
+header h1
+{
+    padding: 0 1em;
+    font-family: 'Workshop', sans-serif;
+}
+header ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: black;
+}
+header ul li
+{
+    list-style: none;
+    text-decoration: none;
+    padding: 0 2em;
+    color: black;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.Inicio
+{
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+.Inicio img
+{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: fit-content;
+    flex-direction: row;
+    left: 40%;
+    top: 14%;
+
+    border: 5px solid #d7fcd6;
+    border-radius: 20px;
+    padding: 0%;
+}
+.Inicio h1
+{
+    position: relative;
+    display: flex;
+    top: 75%;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Workshop';
+    font-size: 6rem;
+    color: black;
+}
+
+.datos_personales_container
+{
+    height: 100vh;
+    width: 100%;
+}
+.datos_personales
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.datos_personales h1
+{
+    display: flex;
+    font-size: 5em;
+    font-family: 'Workshop', sans-serif;
+    padding: 1.5em 0 0.5em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.datos
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1em 4em;
+}
+.datos h3
+{
+    padding: 1em 0;
+    font-size: 1.3em;
+}
+.datos h3 span
+{
+    font-weight: 300;
+    padding: 0 0.5em;
+}
+.datos_personales_foto
+{
+    display: flex;
+    width: 50%;
+    height: fit-content;
+    top: 10%;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+.formacion_container
+{
+    width: 100%;
+    height: 100vh;
+}
+.div_container
+{
+    height: 100%;
+    width: 100%;
+}
+.div_container h1
+{
+    display: flex;
+    font-size: 5em;
+    font-family: 'Workshop', sans-serif;
+    padding: 1.5em 0 0.5em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.for_fecha
+{
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    margin: 1.5em 0;
+}
+#for1_fecha
+{
+    justify-content: flex-start;
+    padding: 0 2em;
+}
+#for2_fecha
+{
+    justify-content: flex-end;
+    padding: 0 2em;
+}
+.for_datos
+{
+    font-size: 1.5em;
+    padding: 0 2.5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#for2_datos
+{
+    align-items: flex-end;
+}
+
+.habilidades_container
+{
+    width: 100%;
+    height: 100vh;
+}
+.habilidades_container h1
+{
+    display: flex;
+    font-size: 5em;
+    font-family: 'Workshop', sans-serif;
+    padding: 1.5em 0 0.5em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.hab_list_container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.hab
+{
+    width: 25%;
+    height: auto;
+    padding: 2%;
+    font-size: 2em;
+    border: 5px solid #d7fcd6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    background: #d7fcd6;
+}
+
+.conocimiento_container
+{
+    height: 100vh;
+    width: 100%;
+}
+.conocimiento_tecnico_container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.conocimiento_container h1
+{
+    display: flex;
+    font-size: 5em;
+    font-family: 'Workshop', sans-serif;
+    padding: 1.5em 0 0.5em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.conocimiento_box
+{
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #d7fcd6;
+    border-radius: 20px;
+    margin: 3em 2em;
+    padding: 2em;
+}
+.conocimiento_box h3
+{
+    font-size: 2em;
+    padding: 0 0 1em;
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: underline;
+}
+.conocimiento_box ul li
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    margin: 1em 0;
+}
+
+.ih_container
+{
+    width: 100%;
+    height: 100vh;
+}
+.ih_container h1
+{
+    display: flex;
+    font-size: 5em;
+    font-family: 'Workshop', sans-serif;
+    padding: 1.5em 0 0.5em;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.ih_subcontainer
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.ih
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #d7fcd6;
+    background: #d7fcd6;
+    border-radius: 25px;
+    margin: 2em 0;
+    padding: 0 0 2em 0;
+}
+.ih h2
+{
+    font-size: 3em;
+    text-decoration: underline;
+    margin: 1em 0 0.5em;
+}
+.ih p
+{
+    font-size: 2em;
+    font-weight: 300;
+    margin: 1em 0;
+}
